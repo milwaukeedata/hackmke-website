@@ -1,59 +1,76 @@
 ---
-layout: index
-title: Home
-permalink: /
+title: Linear
+layout: default
 ---
+<!-- Featured -->
+<div id="featured">
+	<div class="container">
+		<header>
+			<h2>Welcome to Linear</h2>
+		</header>
+		<p>This is <strong>Linear</strong>, a responsive HTML5 site template freebie by <a href="http://templated.co">TEMPLATED</a>. Released for free under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so use it for whatever (personal or commercial) &ndash; just give us credit! Check out more of our stuff at <a href="http://templated.co">our site</a> or follow us on <a href="http://twitter.com/templatedco">Twitter</a>.</p>
+		<hr />
+		<div class="row">
+			<section class="4u">
+				<span class="pennant"><span class="fa fa-briefcase"></span></span>
+				<h3>Maecenas luctus lectus</h3>
+				<p>Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo.</p>
+				<a href="#" class="button button-style1">Read More</a>
+			</section>
+			<section class="4u">
+				<span class="pennant"><span class="fa fa-lock"></span></span>
+				<h3>Maecenas luctus lectus</h3>
+				<p>Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec magna.</p>
+				<a href="#" class="button button-style1">Read More</a>
+			</section>
+			<section class="4u">
+				<span class="pennant"><span class="fa fa-globe"></span></span>
+				<h3>Maecenas luctus lectus</h3>
+				<p>Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo.</p>
+				<a href="#" class="button button-style1">Read More</a>
+			</section>
 
-<div id="service">
-    <div class="container">
-        <div class="row centered">
-            <div class="col-md-4">
-                <i class="fa fa-heart-o"></i>
-                <h4>Handsomely Crafted</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-flask"></i>
-                <h4>Retina Ready</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-trophy"></i>
-                <h4>Quality Theme</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-            </div>		 				
-        </div>
-    </div><! --/container -->
-</div><! --/service -->
+		</div>
+	</div>
+</div>
 
-{% include portfolio.html title="LATEST WORKS" limit=10 %}
+<!-- Main -->
+	<div id="main">
+		<div id="content" class="container">
 
-<div class="container mtb">
-    <div class="row">
-        <div class="col-lg-4 col-lg-offset-1">
-            <h4>More About Our Agency.</h4>
-            <p>{{ site.about }}</p>
-            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
-        </div>
+			<div class="row">
+				<section class="6u">
+					<a href="#" class="image full"><img src="/assets/images/pic01.jpg" alt=""></a>
+					<header>
+						<h2>Mauris vulputate dolor</h2>
+					</header>
+					<p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</p>
+				</section>
+				<section class="6u">
+					<a href="#" class="image full"><img src="/assets/images/pic02.jpg" alt=""></a>
+					<header>
+						<h2>Mauris vulputate dolor</h2>
+					</header>
+					<p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</p>
+				</section>
+			</div>
 
-        <div class="col-lg-3">
-            <h4>Frequently Asked</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['question'] %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            {% endfor %}
-        </div>
+			<div class="row">
+				<section class="6u">
+					<a href="#" class="image full"><img src="/assets/images/pic03.jpg" alt=""></a>
+					<header>
+						<h2>Mauris vulputate dolor</h2>
+					</header>
+					<p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</p>
+				</section>
+				<section class="6u">
+					<a href="#" class="image full"><img src="/assets/images/pic04.jpg" alt=""></a>
+					<header>
+						<h2>Mauris vulputate dolor</h2>
+					</header>
+					<p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</p>
+				</section>
+			</div>
 
-        <div class="col-lg-3">
-            <h4>Latest Posts</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:5 %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %} 
-        </div>
-
-    </div><! --/row -->
-</div><! --/container -->
+		</div>
+	</div>
