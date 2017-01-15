@@ -1,22 +1,22 @@
 # Site settings
 title: Project Pages
 description: "An Integrated Scientific Blogging Template"
-url: "https://projectpages.github.io"
+url: "http://hackmke.com"
 
 
 
 
 # Secondary Parameters
-baseurl: "/project-pages"
+baseurl: "/"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
+logo: /img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
-github_username:  projectpages
-project_repository: project-pages
+github_username:  milwaukeedata
+project_repository: -hackmke-website
 disqus_shortname: project-pages
-g-analytics: UA-75881392-1
+g-analytics: 
 altmetric: true
 
 # Build settings
